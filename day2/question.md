@@ -17,6 +17,15 @@
    - Output: `20`
    - ✨ _Teaches nested or chained conditional logic and comparative reasoning._
 
+   let arr = [10, 30, 40, 200, 51, 98];
+   let max = arr[0];
+   for (let i = 1; i <= arr.length; i++) {
+   if (max < arr[i]) {
+   max = arr[i];
+   }
+   }
+   console.log(max);
+
 ---
 
 2. **Check if a Number is Positive, Negative, or Zero**
@@ -24,6 +33,14 @@
    - Input: `-9`
    - Output: `Negative`
    - ✨ _Practices multi-branch conditions and comparison operators._
+
+   let num = -4;
+
+if (num > 0) {
+console.log("positive");
+} else {
+console.log("Negative");
+}
 
 ---
 
